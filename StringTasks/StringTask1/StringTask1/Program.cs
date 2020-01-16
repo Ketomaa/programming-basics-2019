@@ -6,18 +6,12 @@ namespace StringTask1
     {
         static void Main(string[] args)
         {
-            {
-                int number = 1;
-                double square_root;
-                Console.WriteLine("Luku     Neliöjuuri");
-                while (number <= 10)
-                {
-                    square_root = Math.Sqrt(number);
-                    square_root = Math.Round(square_root, 2);
-                    Console.WriteLine(" {0}          {1}", number, square_root);
-                    number++;
-                }
-            }
+
+            Console.WriteLine("Laskee merkkien määrän");
+            Console.Write("Syötä teksti: ");
+            string text = Console.ReadLine();
+            Console.WriteLine(text.Length);
+
         }
     }
 }
