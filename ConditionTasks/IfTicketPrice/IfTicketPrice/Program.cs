@@ -8,7 +8,7 @@ namespace IfTicketPrice
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("Ohjelma laskee maatalousnäyttelyn lipun hinnan.");
+            Console.WriteLine("Laskee maatalousnäyttelyn lipun hinnan.");
             int ticketPrice = 16;
 
 
