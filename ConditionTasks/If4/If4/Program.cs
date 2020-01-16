@@ -21,26 +21,26 @@ namespace If4
 
             if (x < y && z < x)
             {
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {z} - {x} - {y}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {z} , {x} , {y}");
             }
             else if (x < y && x < z && y < z)
             {
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {x} - {y} - {z}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {x} , {y} , {z}");
             }
             else if (x < y && x < z && z < y)
             {
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {x} - {z} - {y}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {x} , {z} , {y}");
             }
             else if (y < x && x < z)
             {
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {y} - {x} - {z}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {y} , {x} , {z}");
             }
             else if (y < x && z < x && y < z)
             {
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {y} - {z} - {x}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {y} , {z} , {x}");
             }
             else if (y < x && z < x && z < y)
-                Console.WriteLine($"Luvut suuruusjärjestyksessä {z} - {y} - {x}");
+                Console.WriteLine($"Luvut suuruusjärjestyksessä {z} , {y} , {x}");
 
         }
     }
