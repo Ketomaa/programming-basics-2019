@@ -6,7 +6,7 @@ namespace StringTask4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ohjelma tarkastaa, onko syötetty sana tai lause palintromi.");
+            Console.WriteLine("Tarkastetaan, onko syötetty sana tai lause palintromi");
             Console.Write("Syötä sana tai lause: ");
             string text = Console.ReadLine().ToUpper().Replace(" ", "");
 

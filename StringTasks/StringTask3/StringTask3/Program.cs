@@ -6,7 +6,7 @@ namespace StringTask3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ohjelma laskee L-kirjaimet tekstistä.");
+            Console.WriteLine("Laskee L-kirjaimet tekstistä");
             Console.Write("Syötä teksti: ");
             string text = Console.ReadLine().ToUpper();
             int counter = 0;
