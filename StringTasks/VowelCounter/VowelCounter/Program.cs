@@ -6,7 +6,7 @@ namespace VowelCounter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ohjelma kertoo syötteessä olevien vokaalien määrän.");
+            Console.WriteLine("Kertoo syötteessä olevien vokaalien määrän");
             string userInput = UserInput();
             string removedUserInput = VowelsRemove(userInput);
             Console.WriteLine($"Vokaaleita tekstissä {userInput} on {userInput.Length - removedUserInput.Length}");
