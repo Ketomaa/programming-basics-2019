@@ -20,7 +20,7 @@ namespace HetuCheck
         }
         static string Intro()
         {
-            Console.WriteLine("Ohjelma tarkastaa henkilötunnuksen oikeellisuuden.");
+            Console.WriteLine("Tarkastaa henkilötunnuksen oikeellisuuden");
             Console.Write("Syötä henkilötunnus: ");
             return Console.ReadLine();
         }
